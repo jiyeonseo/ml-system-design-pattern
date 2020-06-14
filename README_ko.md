@@ -9,7 +9,7 @@
 <br>
 
 ## 필요 조건
-이 문서에 있는 모든 머신러닝 시스템 패턴은 클라우드나 쿠버네티스 클러스터를 사용하여 배포하는 것을 전제로 설명합니다. 이 문서는 최대한 특정 프로그래밍 언어나 플렛폼에 의존하지 않도록 노력하나, Python은 머신 러닝에서 가장 대중적인 언어임을 감안하여 대부분의 디자인 패턴은 Python으로 구현 가능하도록 되어 있습니다. 
+이 문서에 있는 모든 머신 러닝 시스템 패턴은 클라우드나 쿠버네티스 클러스터를 사용하여 배포하는 것을 전제로 설명합니다. 이 문서는 최대한 특정 프로그래밍 언어나 플렛폼에 의존하지 않도록 노력하나, Python은 머신 러닝에서 가장 대중적인 언어임을 감안하여 대부분의 디자인 패턴은 Python으로 구현 가능하도록 되어 있습니다. 
 <br>
 
 ## 문서로 읽기 
@@ -18,7 +18,7 @@
 
 ## Patterns
 ### [Serving patterns](./Serving-patterns/README_ko.md)
-서빙 패턴은 실제 운영 환경에서 머신 러닝 모델을 이용할 수 있도록 만드는 일련의 시스템 디자인들 입니다. 
+서빙 패턴은 실제 운영 환경에서 머신 러닝 모델을 이용할 수 있도록 만드는 일련의 시스템 디자인들입니다. 
  
 - [Web single pattern](./Serving-patterns/Web-single-pattern/design_ko.md)
 
@@ -77,7 +77,7 @@
   - [Offline-only pattern](./QA-patterns/Anti-patterns/Offline-only-pattern/design_ko.md)
 
 ### [Training patterns](./Training-patterns/README_ko.md)
-학습 파이프라인을 구성하기 위한 패턴들 입니다. 
+학습 파이프라인을 구성하기 위한 패턴들입니다. 
 
 
 - [Batch training pattern](./Training-patterns/Batch-training-pattern/design_ko.md)
@@ -98,7 +98,7 @@
   - [Too many pipes pattern](./Training-patterns/Anti-patterns/Too-many-pipes-pattern/design_ko.md)
 
 ### [Operation patterns](./Operation-patterns/README_ko.md)
-ML 학습 시스템의 설정과 로깅, 모니터링, 알람 시스템을 위한  관리 및 운영 패턴들 입니다. 
+ML 학습 시스템의 설정과 로깅, 모니터링, 알람 시스템을 위한 관리 및 운영 패턴들입니다.
 
 
 - [Model-in-image pattern](./Operation-patterns/Model-in-image-pattern/design_ko.md)
@@ -129,7 +129,7 @@ ML 학습 시스템의 설정과 로깅, 모니터링, 알람 시스템을 위�
 
 
 ### [Lifecycle patterns](./Lifecycle-patterns/README_ko.md)
-실제 운영을 위한 ML 시스템 전체를 구성하기 위해 여러 패턴들을 조합한 패턴들 입니다. 
+실제 운영을 위한 ML 시스템 전체를 구성하기 위해 여러 패턴들을 조합한 패턴들입니다. 
 
 - [Train-then-serve pattern](./Lifecycle-patterns/Train-then-serve-pattern/design_ko.md)
 
@@ -149,9 +149,9 @@ ML 학습 시스템의 설정과 로깅, 모니터링, 알람 시스템을 위�
 
 ## 기여하기
 
-새로운 패턴을 추가하려면 [template_design.md](./template_design.md)를 템플릿으로 사용하여 Issue를 생성하고 Pull Request를  만들어 주세요.<br>
+새로운 패턴을 추가하려면 [template_design.md](./template_design.md)를 템플릿으로 사용하여 Issue를 생성하고 Pull Request를 만들어 주세요.<br>
 새로운 안티 패턴을 추가할 경우 [template_antipattern.md](./template_antipatter.md)를 템플릿으로 사용하여 Issue와 Pull Request를 만들어 주세요.<br>
-더 개선 될 점이나 변경, 질문이 있는 경우 Issue로 제안해주세요. <br>
+더 개선될 점이나 변경, 질문이 있는 경우 Issue로 제안해주세요. <br>
 
 Mercari에 기여하기 전 CLA를 주의 깊게 읽어주세요. 기여를 함으로써 CLA의 약관에 따라 이를 승낙하고 동의한 것으로 간주됩니다. 
 
