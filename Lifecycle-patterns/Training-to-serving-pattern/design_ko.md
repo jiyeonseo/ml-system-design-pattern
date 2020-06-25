@@ -12,7 +12,7 @@
 <br>
 학습 파이프라인으로는 [batch training pattern](../../Training-patterns/Batch-training-pattern/design_ko.md) 나 [pipeline training pattern](../../Training-patterns/Pipeline-training-pattern/design_ko.md)를 선택할 수 있습니다. [parameter and architecture search pattern](../../Training-patterns/Parameter-and-architecture-search-pattern/design_ko.md) 은 학습 모델의 품질이 안정적이라고 할 수 없기 때문에 이 패턴과 적합하지 않은 경우가 많습니다. 
 <br>
-[model load pattern](../../Operation-patterns/Model-load-pattern/design_ko.md) 나 [model-in-image pattern](../../Operation-patterns/Model-in-image-pattern/design_ko.md)을 사용하여 학습과 서빙을 연결할 수 있는데, 원하는 모델과 예측 서버 관리 방법에 따라 결정할 수 있습니다. 현재 서버에서 변경없이 모델을 업데이트 하려면 [model load pattern](../../Operation-patterns/Model-load-pattern/design_ko.md)을, 
+[model load pattern](../../Operation-patterns/Model-load-pattern/design_ko.md) 나 [model-in-image pattern](../../Operation-patterns/Model-in-image-pattern/design_ko.md)을 사용하여 학습과 서빙을 연결할 수 있는데, 원하는 모델과 예측 서버 관리 방법에 따라 결정할 수 있습니다. 현재 서버에서 변경 없이 모델을 업데이트하려면 [model load pattern](../../Operation-patterns/Model-load-pattern/design_ko.md)을, 
 모든 서버를 업데이트하려면  [model-in-image pattern](../../Operation-patterns/Model-in-image-pattern/design_ko.md)을 선택할 수 있습니다. 
 <br>
 서빙할 때는 [microservice horizontal pattern](../../Serving-patterns/Microservice-horizontal-pattern/design_ko.md) 을 사용하는 것이 좋습니다. 이 패턴은 새로운 예측 서버를 다른 서버와 병렬로 배치하고, 프록시를 통해 서비스 검색하여 예측 서버들과 연결해 줍니다. 
