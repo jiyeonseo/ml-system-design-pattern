@@ -15,7 +15,7 @@
 [model load pattern](../../Operation-patterns/Model-load-pattern/design_ko.md) 나 [model-in-image pattern](../../Operation-patterns/Model-in-image-pattern/design_ko.md)을 사용하여 학습과 서빙을 연결할 수 있는데, 원하는 모델과 예측 서버 관리 방법에 따라 결정할 수 있습니다. 현재 서버에서 변경없이 모델을 업데이트 하려면 [model load pattern](../../Operation-patterns/Model-load-pattern/design_ko.md)을, 
 모든 서버를 업데이트 하려면  [model-in-image pattern](../../Operation-patterns/Model-in-image-pattern/design_ko.md)을 선택할 수 있습니다. 
 <br>
-서빙 할 때는 [microservice horizontal pattern](../../Serving-patterns/Microservice-horizontal-pattern/design_ko.md) 을 사용하는 것이 좋습니다. 이 패턴은 새로운 예측 서버를 다른 서버와 병렬로 배치하고, 프록시를 통해 서비스 검색하여 예측 서버들과 연결해 줍니다. 
+서빙할 때는 [microservice horizontal pattern](../../Serving-patterns/Microservice-horizontal-pattern/design_ko.md) 을 사용하는 것이 좋습니다. 이 패턴은 새로운 예측 서버를 다른 서버와 병렬로 배치하고, 프록시를 통해 서비스 검색하여 예측 서버들과 연결해 줍니다. 
 <br>
 서비스 관리 관점에서 [prediction log pattern](../../Operation-patterns/Prediction-log-pattern/design_ko.md) 과 [prediction monitoring pattern](../../Operation-patterns/Prediction-monitoring-pattern/design_ko.md) 사용은 필수 입니다. 
 <br>
