@@ -10,7 +10,7 @@
 학습과 서빙을 연결하는 워크플로우를 설계할 때, 학습 패턴과 서빙 패턴을 조합하는 구성을 할 수 있습니다. 평가가 끝난 학습된 모델을 수동으로 릴리즈를 할 때, 여러 패턴을 조합한 train-then-serve 패턴을 사용할 수 있습니다. 이 워크플로우에서는 사람에 의한 평가가 들어가기 때문에, 자주 모델 릴리즈를 하려면 적합하지 않은 구조이지만, 모델과 시스템의 품질을 확실히 보장할 수 있습니다. 
  <br>
  트레이닝과 서빙을 연결하기 위해 
-[model load pattern](../../Operation-patterns/Model-load-pattern/design_ko.md) 이나 [model-in-image pattern](../../Operation-patterns/Model-in-image-pattern/design_ko.md) 을 사용할 수 있습니다. 이는 모델과 예측 서버 관리하는 방법에 따라 결정 할 수 있습니다. 현재 서버에서 변경 없이 모델을 업데이트하려면 [model load pattern](../../Operation-patterns/Model-load-pattern/design_ko.md)을, 
+[model load pattern](../../Operation-patterns/Model-load-pattern/design_ko.md) 이나 [model-in-image pattern](../../Operation-patterns/Model-in-image-pattern/design_ko.md) 을 사용할 수 있습니다. 이는 모델과 예측 서버 관리하는 방법에 따라 결정할 수 있습니다. 현재 서버에서 변경 없이 모델을 업데이트하려면 [model load pattern](../../Operation-patterns/Model-load-pattern/design_ko.md)을, 
 전체 서버를 업데이트 해야 한다면  [model-in-image pattern](../../Operation-patterns/Model-in-image-pattern/design_ko.md)을 선택할 수 있습니다. 
  <br>
 실제 운영 환경에서는 프록시 환경 변수 수정으로 운영 중인 모델의 예측 동작을 업데이트 할 수 있는 [parameter-based serving pattern](../../Operation-patterns/Parameter-based-serving-pattern/design_ko.md)이 효과적일 수도 있습니다. 서비스 관리 측면에서 [prediction log pattern](../../Operation-patterns/Prediction-log-pattern/design_ko.md)과 [prediction monitoring pattern](../../Operation-patterns/Prediction-monitoring-pattern/design_ko.md)은 반드시 사용되어야 합니다. 
