@@ -8,7 +8,7 @@
 - 모델을 자주 업데이트해야 할 경우.
 
 ## Architecture
-학습과 서빙을 연결하는 워크플로우를 설계 할때, 학습 패턴과 서빙 패턴을 조합하는 구성을 할 수 있습니다. 학습 파이프라인과 함께 모델을 계속해서  배포해야 하는 경우, 이 패턴을 사용할 수 있습니다. 이 패턴으로 학습 파이프 라인을 완료되면 자동으로 릴리즈하여 모델 서버를 구축할 수 있습니다. 모델이 자주 업데이트되고 수동 평가가 어려울 경우, 적합한 패턴입니다. 
+학습과 서빙을 연결하는 워크플로우를 설계할 때, 학습 패턴과 서빙 패턴을 조합하는 구성을 할 수 있습니다. 학습 파이프라인과 함께 모델을 계속해서 배포해야 하는 경우, 이 패턴을 사용할 수 있습니다. 이 패턴은 학습 파이프라인이 완료되면 자동으로 릴리즈하여 모델 서버를 구축할 수 있습니다. 모델이 자주 업데이트되고 수동 평가가 어려울 경우, 적합한 패턴입니다. 
 <br>
 학습 파이프라인으로는 [batch training pattern](../../Training-patterns/Batch-training-pattern/design_ko.md) 나 [pipeline training pattern](../../Training-patterns/Pipeline-training-pattern/design_ko.md)를 선택할 수 있습니다. [parameter and architecture search pattern](../../Training-patterns/Parameter-and-architecture-search-pattern/design_ko.md) 은 학습 모델의 품질이 안정적이라고 할 수 없기 때문에 이 패턴과 적합하지 않은 경우가 많습니다. 
 <br>
