@@ -1,4 +1,4 @@
-[English](./README.md)
+[English](./README.md) [Korean](./README_ko.md)
 # 機械学習システム デザインパターン
 機械学習システムを本番稼働させるために必要な学習、推論、運用のアーキテクチャ・デザイン・パターン集です。
 
@@ -49,7 +49,8 @@
 
 
 - [Multiple stage prediction pattern](./Serving-patterns/Multiple-stage-prediction-pattern/design_ja.md)
- 
+
+- [Serving template pattern](./Serving-patterns/Serving-template-pattern/design_ja.md)
 
 - Edge prediction pattern: To do
 
