@@ -14,8 +14,8 @@ Parameter and architecture search pattern은 하이퍼 파라미터와 아키텍
 
 
 ## Pros
-- 머신러닝 모델 자동 튜닝
-- 수동으로 확인 할 수 없는 모델 탐색
+- 머신러닝 모델 자동 튜닝.
+- 수동으로 확인 할 수 없는 모델 탐색.
 
 ## Cons
 - 탐색할 파라미터 값.
