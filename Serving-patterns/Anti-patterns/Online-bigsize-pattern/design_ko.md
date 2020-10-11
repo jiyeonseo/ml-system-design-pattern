@@ -25,7 +25,7 @@
 
 ## Work around
 - 모델의 정확성 뿐만 아니라, 비즈니스적 또는 시스템적으로 요구되는 응답 시간이나 속도를 충족하는 모델을 개발합니다.
-- 만약 비용적으로 효과적이라면, GPU를 사용하거나 스케일 아웃 하는 방법도 고려해보세요.
+- 만약 비용면에서 허락한다면, GPU를 사용하거나 스케일 아웃 하는 방법도 고려해보세요.
 
 ## Related design pattern
 - [Prediction cache pattern](./../../Prediction-cache-pattern/design_ko.md)
