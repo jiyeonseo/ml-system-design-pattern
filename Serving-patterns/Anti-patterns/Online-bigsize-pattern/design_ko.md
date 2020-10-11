@@ -32,4 +32,4 @@
 - [Data cache pattern](./../../Data-cache-pattern/design_ko.md)
 - [Loading test pattern](./../../../QA-patterns/Loading-test-pattern/design_ko.md)
 - [Prediction log pattern](./../../../Operation-patterns/Prediction-log-pattern/design_ko.md)
-- [Prediction monitoring pattern](./../../../Operation-patterns/Prediction-monitoring-pattern/design_en.ko)
+- [Prediction monitoring pattern](./../../../Operation-patterns/Prediction-monitoring-pattern/design_ko.md)
